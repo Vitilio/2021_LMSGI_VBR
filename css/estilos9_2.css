@@ -1,22 +1,22 @@
 @font-face {
 	font-family: 'Parisienne';
-	src: url(../ud02/09/fonts/Parisienne-Regular.ttf);
+	src: url(../fonts/Parisienne-Regular.ttf);
 }
 @font-face {
 	font-family: 'Goldman';
-	src: url(../ud02/09/fonts/Goldman-Regular.ttf);
+	src: url(../fonts/Goldman-Regular.ttf);
 }
 @font-face {
 	font-family: 'FrederickatheGreat';
-	src: url(../ud02/09/fonts/FrederickatheGreat-Regular.ttf);
+	src: url(../fonts/FrederickatheGreat-Regular.ttf);
 }
 @font-face {
 	font-family: 'Goldman-Bold';
-	src: url(../ud02/09/fonts/Goldman-Bold.ttf);
+	src: url(../fonts/Goldman-Bold.ttf);
 }
 @font-face {
 	font-family: 'ArchitectsDaughter';
-	src: url(../ud02/09/fonts/ArchitectsDaughter-Regular.ttf);
+	src: url(../fonts/ArchitectsDaughter-Regular.ttf);
 }
 
 /*Los colores usados son: Crimson, #fff, darkred y lightsalmon.*/

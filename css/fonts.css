@@ -1,0 +1,12 @@
+div{
+	width:300px;
+	height:300px;
+	display:inline-block;
+	border: black solid 5px;
+	margin: 5px;
+	background-repeat:no-repeat;
+	background-size: 75%;
+	text-transform:lowercase;
+	overflow:hidden;
+	text-overflow:clip;
+}

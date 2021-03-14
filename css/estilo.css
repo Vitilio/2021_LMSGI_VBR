@@ -1,0 +1,40 @@
+@font-face {
+	font-family: Brightons, cursive;
+	src: url(../fonts/brightons/Brightons.otf)
+}
+@font-face {
+	font-family: JosefinSans, Italic;
+	src: url(../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf)
+}
+
+div{
+	display:inline-block;
+	border: black solid 5px;
+	margin: 10px;
+	overflow:hidden;
+	text-overflow:clip;
+}
+div:nth-child(1)::first-line{
+	word-spacing: 15px;
+} 
+div:nth-child(1){
+	font-family: Arial, normal;
+	font-size: 1em;
+}
+
+div:nth-child(2)::first-line{
+	letter-spacing: 15px;
+} 
+div:nth-child(2){
+	font-family:Brightons, cursive;
+	font-size: 1em;
+	
+}
+
+div:nth-child(3){
+	font-family:Josefina, italic;
+	font-size: 1em;
+	text-align-last:justify;
+}
+
+
