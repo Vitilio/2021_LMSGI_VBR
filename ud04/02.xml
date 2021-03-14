@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mundo>
+    <fila>
+        <continente>Europa</continente>
+        <pais>Alemania</pais>
+        <capital>Berlin</capital>
+    </fila>
+    <fila>
+        <continente>América</continente>
+        <pais>Argentina</pais>
+        <capital>Buenos Aires</capital>
+    </fila>
+</mundo>

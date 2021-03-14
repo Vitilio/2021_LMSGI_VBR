@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<po:pedido
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:msg='https://www.miempresa.com/mensajes'
+    xmlns:po='https://www.miempresa.com/pedido'
+    xsi:schemaLocation='https://www.miempresa.com/pedido pedido.xsd
+    https://www.miempresa.com/mensajes mensajes.xsd'>
+    <po:ordenpedido></po:ordenpedido>
+    <po:fecha></po:fecha>
+    <po:id></po:id>
+
+</po:pedido>

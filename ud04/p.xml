@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE grupo[
+    <!ELEMENT grupo (estudiante)>
+    <!ELEMENT estudiante (#PCDATA)>
+    <!ATTLIST estudiante codigo ID #REQUIRED
+                         idref  IDREFS #IMPLIED>
+]>
+    
+<grupo>
+    <estudiante codigo="1" idref="3">
+        Jose
+    </estudiante>
+    <estudiante codigo="2">
+        Manuel
+    </estudiante>
+    <estudiante codigo="3">
+        Sergio    
+    </estudiante>
+    <estudiante codigo="4" idref="2,1">
+        Julio
+    </estudiante>
+    
+</grupo>

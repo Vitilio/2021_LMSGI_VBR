@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>LMSGI-RSS-Víctor Blanco Rodrigo</title>
+<link>http://192.168.2.109/</link>
+<description>
+Recopilo las cinco ultimas prácticas que hemos realizado con CSS en el trimestre anterior
+</description>
+
+<item>
+<title>Practica 10</title>
+<link>http://192.168.2.109/ud02/10/index.html</link>
+<description>
+TABLAS CSS
+En esta ocasión en vez de crear una tabla, la modificamos para cambiar su color, disposición y tamaño,
+ademas de que al posicionar el ratón en una celda del body de la tabla, esta cambie de color; todo
+mediante CSS.
+</description>
+</item>
+
+<item>
+<title>Practica 11</title>
+<link>http://192.168.2.109/ud02/11/index.html</link>
+<description>
+POSICIONAMIENTO
+En esta practica comprobamos las diferentes clases de posicionamiento de las cajas que forman la pagina
+Ej: static, relative, fixed... y las propiedades para controlarlo:
+top, right, left, bottom y viceversa
+</description>
+</item>
+
+<item>
+<title>Practica 12</title>
+<link>http://192.168.2.109/ud02/12/index.html</link>
+<description>
+CURRICULUM
+Hemos diseñado un modelo de curriculum vitae; en ella hemos empleado iconos, los cuales podemos encontrar 
+en diversaqs paginas web como Font Awesome, y los display para dividir la pagina en dos apartados: 
+Datos Personales y Datos Profesionales
+</description>
+</item>
+
+<item>
+<title>Practica 13</title>
+<link>http://192.168.2.109/ud02/13/index.html</link>
+<description>
+DISPOSICION DE CONTENIDOS
+Es tan solo una plantilla de un periodico o web de noticias con una disposición predefinida, 
+dividiendolo en tres secciones y colocando cada articulo en cajas
+</description>
+</item>
+
+<item>
+<title>Practica 14</title>
+<link>http://192.168.2.109/ud02/14/index.html</link>
+<description>
+LIBROS MAS VENDIDOS
+Con lo aprendido anteriormente creamos una pagina en la que mostramos los libros "más vendidos" 
+y una breve descripción del argumento de cada uno de ellos; también creamos apartados individuales para cada libros
+asi que como una barra con enlaces a otros apartados de la pagina web
+</description>
+</item>
+
+</channel>
+
+</rss>

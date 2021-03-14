@@ -1,0 +1,20 @@
+/* 
+    Created on : 2 feb. 2021, 13:02:20
+    Author     : amor
+*/
+
+nombre {
+    color: red;
+    font-size: 18px;
+    
+}
+
+ejemplo {
+    white-space: pre;
+}
+
+ejemplo::after {
+    
+    content:'\A';
+    white-space: pre;
+ }

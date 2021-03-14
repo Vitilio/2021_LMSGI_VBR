@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalogo (portatil*)>
+<!ELEMENT portatil (referencia, nombre, fabricante,  procesador, ram, disco, pantalla, gráfica, foto*)>
+<!ELEMENT referencia  (#PCDATA)>
+<!ELEMENT nombre  (#PCDATA)>
+<!ELEMENT fabricante  EMPTY>
+<!ATTLIST fabricante
+          nombre (LENOVO|HP|MSI|APPLE|ASUS|DELL|DESCONOCIDO) #REQUIRED>
+<!ELEMENT procesador (nombre, cache, numero, velocidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cache (#PCDATA)>
+<!ATTLIST cache tamanyo (Mb|Gb|Tb) "Gb">
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT velocidad (#PCDATA)>
+<!ATTLIST velocidad medida CDATA #FIXED "Ghz">
+<!ELEMENT ram (memoria, tipo)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT memoria (#PCDATA)> 
+<!ATTLIST memoria media (Mb|Gb|Tb) #REQUIRED>
+<!ELEMENT disco (#PCDATA)>
+<!ATTLIST disco tipo (SSD|HDD) #REQUIRED>
+<!ATTLIST disco medida (Mb|Gb|Tb) #REQUIRED>
+<!ELEMENT pantalla (dimensión, resolución, máxima)>
+<!ELEMENT dimensión (#PCDATA)>
+<!ELEMENT resolución (#PCDATA)>
+<!ELEMENT máxima (#PCDATA)>
+<!ELEMENT grafica (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
