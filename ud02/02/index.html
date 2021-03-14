@@ -1,0 +1,88 @@
+<!--
+Author:Víctor Blanco Rodrigo
+Created: 13/10/2020
+Modified: 24/10/2020
+-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>HTML 02 Víctor Blanco Rodrigo</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Víctor Blanco Rodrigo">
+        <meta name="application-name" content="Trabajando con tablas">
+        <meta name="description" content="Tabla de carácteristicas de dos MP3">
+        <meta name="keywords" content="tabla, mp3, comparación, caracteristicas, especificaciones, color" >
+		<meta name="robots" content="index, follow">      
+		<style>
+			table {
+			border-collapse: collapse;
+			}
+			th,
+			td {
+			border: 1px solid black;
+			padding: 20px;
+			}
+		</style>
+		<link rel="icon" type="image/x-icon" href="../../favicon.ico">
+	</head>
+	<body>
+		<header>
+			<h1>Trabajando con Tablas</h1>
+		</header>
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th colspan="3">
+						<img src="../../images/120_ipod.png" alt="Ipod1" style="width:120px;height:140px;"/>
+					</th>
+					<th colspan="2">
+						<img src="../../images/100_ipod.png" alt="Ipod2" style="width:120px;height:150px;"/>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Capacidad</th>
+					<td>2GB</td>
+					<td>4GB</td>
+					<td>8GB</td>
+					<td>32GB</td>
+					<td>2GB</td>
+				</tr>
+				<tr>
+					<th>Colores</th>
+					<th>Blanco</th>
+					<td>
+						<ul>
+							<li>Negro</li>
+							<li>Rosa</li>
+							<li>Dorado</li>
+						</ul>
+					</td>
+					<th>Negro</th>
+					<td colspan="2">
+						<ul>
+							<li>Negro</li>
+							<li>Blanco</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>Pantalla</th>
+					<th colspan="3">3 pulgadas</th>
+					<th colspan="2">7 pulgadas</th>
+				</tr>
+				<tr>
+					<th rowspan="2">Tiempo de Carga</th>
+					<th rowspan="2" colspan="3">1 hora</th>
+					<th colspan="2">5 horas</th>
+				</tr>
+				<tr>
+					<th colspan="2">30minutos para 75%</th>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

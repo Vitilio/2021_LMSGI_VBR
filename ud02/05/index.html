@@ -1,0 +1,83 @@
+<!-- 
+Author: Víctor Blanco Rodrigo
+Created: 27/10/2020
+Modified: 3/11/2020
+-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>HTML 05 Víctor Blanco Rodrigo</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Víctor Blanco Rodrigo">
+		<meta name="application-name" content="Plantilla de Formulario">
+		<meta name="description" content="Plantilla de formulario específica para sorteos">
+		<meta name="keywords" content="datos, premios, plazo, sorteo, formulario" >
+		<meta name="robots" content="index, follow">      
+		<link rel="icon" type="image/x-icon" href="../../favicon.ico">
+	</head>
+	<body>
+		<header>
+			<h1 STYLE="text-align:center">Plantilla de Formulario de Sorteo </h1>
+		</header> 
+		<form action="registro.php" method="get">
+			<fieldset style="background-color: #87C376">
+				<legend style="border: 1px solid black; background-color: white">Datos Personales</legend>
+				<p><label for="nomap">Nombre y Apellidos:</label><br><input type="text" name="nombre completo" id="nomap"><p>
+				<p><label>Sexo =></label>
+					<input type="radio" name="sex" id="masc">
+					<label for="masc">Hombre</label>
+					<input type="radio" name="sex" id="fem">
+					<label for="fem">Mujer</label></p>
+				<p><label for="ano">Edad</label><br><input type="number" id="ano" name="cantidad" min="1" max="122"></p>
+				<p><label for="em">Correo Electronico</label><br><input type="email" name="email" id="em"></p>
+				<p><label for="tel">Telefono</label><br><input type="tel" maxlength="9" name="Telefono" id="tel" pattern="[0-9]{9}"></p>
+				<p><label for="fecha">Fecha de Nacimiento</label><br><input type="date" name="fecha" id="fecha" min="1960-01-01"></p>
+				<p><label for="pais">País de Residencia:</label>
+				<input type="text" list="countries" name="Paises" id="pais">
+					<datalist id="countries">
+						<option value="Afganistán"><option value="Albania"><option value="Alemania"><option value="Andorra"><option value="Angola">
+						<option value="Antigua y Barbuda"><option value="Arabia Saudí"><option value="Argelia"><option value="Argentina"><option value="Armenia"><option value="Australia"><option value="Austria">
+						<option value="Azerbaiyán"><option value="Bahamas"><option value="Bahráin"><option value="Bangladesh"><option value="Barbados"><option value="Bélgica"><option value="Belice"><option value="Benín">
+						<option value="Bielorrusia"><option value="Birmania"><option value="Bolivia"><option value="Bosnia y Hercegovina"><option value="Botsuana"><option value="Brasil"><option value="Brunéi"><option value="Bulgaria">
+						<option value="Burkina Falso"><option value="Burundi"><option value="Bután"><option value="Cabo Verde"><option value="Camboya"><option value="Camerún"><option value="Canadá"><option value="Chad"><option value="Chile">
+						<option value="China"><option value="Chipre"><option value="Colombia"><option value="Corea del Norte"><option value="Corea del Sur"><option value="Costa de Marfil"><option value="Costa Rica"><option value="Croacia">
+						<option value="Cuba"><option value="Dinamarca"><option value="Dominica"><option value="Ecuador"><option value="Egipto"><option value="El Salvador"><option value="Emiratos Árabes Unidos"><option value="Eslovaquia">
+						<option value="Eslovenia"><option value="España"><option value="Estados Unidos"><option value="Estonia"><option value="Etiopía"><option value="Filipinas"><option value="Finlandia"><option value="Francia">
+						<option value="Gabón"><option value="Gambia"> <option value="Georgia"><option value="Ghana"><option value="Gibraltar"><option value="Granada"><option value="Grecia"><option value="Groenlandia">
+						<option value="Guatemala"><option value="Guinea"><option value="Guinea Ecuatorial"><option value="Guinea-Bissau"><option value="Guyana"><option value="Haití"><option value="Honduras"><option value="Hungría">
+						<option value="India"><option value="Indonesia"><option value="Irak"><option value="Iran"><option value="Irlanda"><option value="Islandia"><option value="Islas Marshall"><option value="Islas Salomón">
+						<option value="Israel"><option value="Italia"><option value="Jamaica"><option value="Japón"><option value="Jordania"><option value="Kazajistán"><option value="Kenia"><option value="Kiribati">
+						<option value="Kuwait"><option value="Laos"><option value="Lesoto"><option value="Letonia"><option value="Líbano"><option value="Liberia"><option value="Libia"><option value="Liechtenstein">
+						<option value="Lituania"><option value="Luxemburgo"><option value="Macedonia"><option value="Madagascar"><option value="Malasia"><option value="Malawi"><option value="Maldivas"><option value="Malí">
+						<option value="Malta"><option value="Marruecos"><option value="Mauricio"><option value="Mauritania"><option value="México"><option value="Micronesia"><option value="Moldavia">
+						<option value="Mónaco"><option value="Mongolia"><option value="Montenegro"><option value="Mozambique"><option value="Namibia"><option value="Nepal"><option value="Nicaragua">
+						<option value="Níger"><option value="Nigeria"><option value="Noruega"><option value="Nueva Zelanda"><option value="Omán"><option value="Países Bajos"><option value="Pakistán">
+						<option value="Palau"><option value="Panamá"><option value="Papúa-Nueva Guinea"><option value="Paraguay"><option value="Perú"><option value="Polonia"><option value="Portugal">
+						<option value="Puerto Rico"><option value="Qatar"><option value="Reino Unido"><option value="República Centroafricana"><option value="República Dominicana"><option value="República Checa">
+						<option value="Ruanda"><option value="Rumania"><option value="Rusia"><option value="Sáhara"><option value="Samoa"><option value="San Marino"><option value="San Vicente y las Granadinas">
+						<option value="Santa Lucía"><option value="Santo Tomé y Príncipe"><option value="Senegal"><option value="Serbia"><option value="Seychelles"><option value="Sierra Leona"><option value="Singapur">
+						<option value="Siria"><option value="Somalia"><option value="Sri Lanka"><option value="Sudáfrica"><option value="Sudán"><option value="Suecia"><option value="Suiza"><option value="Surinam">
+						<option value="Tailandia"><option value="Taiwán"><option value="Tanzania"><option value="Tayikistán"><option value="Togo"><option value="Tonga"><option value="Trinidad y Tobago"><option value="Túnez">
+						<option value="Turkmenistán"><option value="Turquía"><option value="Ucrania"><option value="Uganda"><option value="Uruguay"><option value="Uzbekistán"><option value="Vaticano"><option value="Venezuela"><option value="Vietnam"><option value="Yemen"><option value="Zambia"><option value="Zimbabue">
+					</datalist></p>
+			</fieldset>
+			<fieldset style="background-color: #76C3BD">
+				<legend style="border: 1px solid black; background-color: white">Datos del Sorteo</legend>
+				<p><b>Selecciona dos premios por los que quieras participar</b></p>
+				<p><input type="checkbox" name="Premio" id="prize1"><label for="prize1">Telefono movil</label></p>
+				<p><input type="checkbox" name="Premio" id="prize2"><label for="prize2">Consola</label></p>
+				<p><input type="checkbox" name="Premio" id="prize3"><label for="prize3">Coche</label></p>
+				<p><input type="checkbox" name="Premio" id="prize4"><label for="prize4">Viaje</label></p>
+				<p><textarea placeholder="Especifique sobre dichos premios"></textarea></p>
+				<p><b>Fecha de Entrega</b></p>
+				<p><label for="hor">Hora</label>&nbsp;&nbsp;<input type="time" id="hor" name="hora"></p>
+				<p><label for="week">Semana</label>&nbsp;&nbsp;<input type="week" id="week" name="semana"></p>
+				<p><label for="daymonth">Mes</label>&nbsp;&nbsp;<input type="month" id="daymonth" name="mes"></p>
+			</fieldset>
+			<br>
+			<input type="submit" value="Enviar">
+			<input type="reset">
+		</form>
+	</body>
+</html>
