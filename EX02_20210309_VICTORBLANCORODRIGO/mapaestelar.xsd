@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="mapaestelar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="constelacion">
+                    <xs:complexType>
+                        <xs:attribute name="nombreLatin"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="nombreespanol" type="xs:string"></xs:element>
+                <xs:element name="superficie" type="xs:integer"></xs:element>
+                <xs:element name="estrellas" >
+                    <xs:complexType>
+                        <xs:attribute name="numero_de_estrellas" type="xs:integer" minOccurs="0" maxOccurs="1000"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="asterismo" type="xs:integer" ></xs:element>
+                        <xs:element name="masBrillante" type="xs:string">
+                            <xs:attribute name="luminosidad" type="xs"></xs:attribute>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

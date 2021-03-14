@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapaestelar SYSTEM 'mapaestelar.dtd'> 
+<mapaestelar xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+             xsi:noNamespaceSchemaLocation='mapaestelar.xsd'>
+    <constelacion nombreLatin="Ursa Maior">
+        <nombreespanol>La Osa Mayor</nombreespanol>
+        <superficie>1279,7</superficie>
+        <estrellas numero_de_estrellas="209">
+            <asterismo>7</asterismo>
+            <masBrillante luminosidad="1,77">Alioth</masBrillante>
+        </estrellas>
+        <objetos>
+            <cumulos>false</cumulos>
+            <nebulosas>true</nebulosas>
+            <galaxias>true</galaxias>
+            <cuasares>false</cuasares>
+            <lluviademeteoros>
+                <nombre>Kappa Ursa Mayóridas</nombre>
+            </lluviademeteoros>
+            <lluviademeteoros>
+                <nombre>Lambda Ursa Mayóridas</nombre>
+            </lluviademeteoros>
+            <lluviademeteoros>
+                <nombre>Psi Ursa Mayóridas</nombre>
+            </lluviademeteoros>
+            <lluviademeteoros>
+                <nombre>Ursa Mayóridas de octubre</nombre>
+            </lluviademeteoros>
+        </objetos>
+        <colindantes>
+            <nombres>Bootes,Camelopardalis,Canes Venatici,Draco,Leo,Leo Minor,Lynx</nombres>
+        </colindantes>
+        <observacion>
+            <hemisferio>Norte</hemisferio>
+            <mes>04</mes>
+            <hora>21:00:00</hora>
+        </observacion>
+    </constelacion>
+</mapaestelar>
