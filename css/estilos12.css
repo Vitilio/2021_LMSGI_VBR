@@ -1,0 +1,120 @@
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+ul, ol{list-style:none;}
+	a {text-decoration:none; color:black;}
+
+@font-face{
+	font-family:"FontAwesome";
+	src:url('../ud02/12/fonts/fontawesome-free-5.15.1-web/webfonts/fa-solid-900.woff');	
+}
+img{
+	width:150px;
+	height:250px;
+	padding:20px;
+}
+#content #izq {
+	width:30%;
+	float:left;
+	background-color:grey;
+}
+#content #der {
+	width:70%;
+	float:right;
+	background-color:lightyellow;
+	padding:5px;
+}
+#content #izq .dato {
+	padding:20px;
+}
+#content #izq .dato span {
+	font-weight:bold;
+	letter-spacing:5px;
+}
+
+#content #izq .dato:before {
+	position:relative;
+	font-family:"FontAwesome";
+	width:30px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	line-height:30px;
+	color:white;
+	border:1px solid white;
+	border-radius:50%;
+	padding:5px;
+	position:relative;
+	background-color:black;
+	top:0px;
+	left:0px;
+}
+	
+#content #izq .direccion:before{
+			content:"\f041";
+}
+#content #izq .telefono:before{
+			content:"\f10b";
+}
+#content #izq .email:before{
+			content:"\f1fa";
+}
+#content #izq .fecha:before{
+			content:"\f1fd";
+}
+#content #izq .pais:before{
+			content:"\f015";
+}
+#content #izq .estado:before{
+			content:"\f007";
+}
+#content #izq .dni:before{
+			content:"\f09d";
+}
+#content #izq .horario:before{
+			content:"\f279";
+}
+
+ul{
+	list-style: disc inside;
+}
+#content #der .dato {
+	padding:20px;
+}
+#content #der .dato span {
+	font-weight:bold;
+	letter-spacing:5px;
+}
+
+#content #der .dato:before {
+	position:relative;
+	font-family:"FontAwesome";
+	width:30px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	line-height:30px;
+	color:white;
+	border:1px solid white;
+	border-radius:50%;
+	padding:5px;
+	position:relative;
+	background-color:black;
+	top:0px;
+	left:0px;
+}
+
+#content #der .estudios:before{
+			content:"\f19c";
+}
+#content #der .habilidades:before{
+			content:"\f05a";
+}
+#content #der .conducir:before{
+			content:"\f1b9";
+}
+#content #der .idiomas:before{
+			content:"\f024";
+}

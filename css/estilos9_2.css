@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Parisienne';
+	src: url(../ud02/09/fonts/Parisienne-Regular.ttf);
+}
+@font-face {
+	font-family: 'Goldman';
+	src: url(../ud02/09/fonts/Goldman-Regular.ttf);
+}
+@font-face {
+	font-family: 'FrederickatheGreat';
+	src: url(../ud02/09/fonts/FrederickatheGreat-Regular.ttf);
+}
+@font-face {
+	font-family: 'Goldman-Bold';
+	src: url(../ud02/09/fonts/Goldman-Bold.ttf);
+}
+@font-face {
+	font-family: 'ArchitectsDaughter';
+	src: url(../ud02/09/fonts/ArchitectsDaughter-Regular.ttf);
+}
+
+/*Los colores usados son: Crimson, #fff, darkred y lightsalmon.*/
+
+
+	
+body{
+	font-family: 'Parisienne';
+	background-image:url("../images/Le_petit_prince.png");
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+	margin-right:300 px;
+}
+h1{
+	font-family:'FrederickatheGreat';
+	letter-spacing: 5px;
+	text-transform:capitalize;
+	text-decoration:underline;
+	text-decoration-style:double;
+	color:crimson;
+	font-size:3em;
+	font-weight:bold;
+
+}
+p{
+	background-color: crimson;
+	font-style: italic;
+	font-size: 1em;
+	padding: 5px 0;
+}
+p span{
+	color:#fff;
+}
+p::first-letter{
+	font-size: 1.5em;
+}
+li{
+	border-style:dotted;
+	border-color:darkred;
+	border-width:thin;
+	
+}
+ol{
+	background-color:darkred;
+	
+}
+
+.lista1{
+	list-style-type:circle;
+	list-style-position:inside;
+	list-style-image:none;
+}
+.lista2{
+	list-style-type:square;
+	list-style-position:outside;
+	list-style-image:none;
+}
+.lista3{
+	list-style: square inside url("../images/sqpurple.png");
+}
+.lista4{
+	border-style:dashed;
+	border-color:darkred;
+	background-color:lightsalmon;
+}
+.lista5{
+	color:darkred;
+	background-color:lightsalmon;
+	list-style-type:decimal;
+}
+.lista6{
+	list-style-type:none;
+	list-style-image:none;
+	color:darkred
+}
