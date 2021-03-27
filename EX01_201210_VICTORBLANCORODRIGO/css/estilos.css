@@ -1,0 +1,53 @@
+
+body{
+	background-image: url("../images/neflix-website.jpg");
+	background-color:#000;
+	background-repeat:no-repeat;
+}
+
+h1{
+	color:red;
+	padding-left:75px;
+	padding-top:25px;
+}
+
+h2{
+	color:#fff;
+	text-align:center;
+}
+
+ p{
+	
+	color:#fff;
+	font-style:cursive;
+	font-size:2em;
+	text-align:center;
+}
+
+label{
+	color:#fff;
+}
+
+div{
+	color:#fff;
+	display:inline-block;
+	background-color:red;
+	font-size:30px;
+	padding:5px  50px 5px 50px  ;
+	position:relative;
+	left:85%;
+
+	
+}
+
+fieldset{
+	background-color:#000;
+	border-color:#000;
+	margin:100px 500px 100px 500px;
+}
+
+
+div:hover{
+	border-bottom:solid #fff;
+	
+}
