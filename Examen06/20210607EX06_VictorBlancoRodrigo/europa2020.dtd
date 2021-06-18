@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!ELEMENT eurocopa (fasefinal)*>
+<!ATTLIST eurocopa
+    anyo (2020|2016|2012) #REQUIRED
+    temporada (2021|2016|2012) #REQUIRED
+  >
+<!ELEMENT fasefinal (grupo)+>
+<!ELEMENT grupo (seleccion)+>
+<!ATTLIST grupo
+    id ID  #REQUIRED
+  >
+<!ELEMENT seleccion (iniciales,clasificacion)*>
+<!ELEMENT iniciales (ita|gal|sui|tur|bel|fin|din|rus|aus|pai|ucr|mac|rep|ing|cro|esc|esl|esp|sue|pol|por|fra|ale|hun)>
+<!ELEMENT clasificacion (jugados,ganados,empatados,perdidos,golesfavor,golescontra)*>
+<!ELEMENT jugados (#PCDATA)>
+<!ELEMENT ganados (#PCDATA)>
+<!ELEMENT empatados (#PCDATA)>
+<!ELEMENT perdidos (#PCDATA)>
+<!ELEMENT golesfavor (#PCDATA)>
+<!ELEMENT golescontra (#PCDATA)>
