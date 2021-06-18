@@ -1,0 +1,120 @@
+﻿
+/* 
+    Created on : 03-dic-2019, 19:10:50
+    Author     : Amor Rodríguez <amor at marodriguezn@educa.jcyl.es>
+   Fuente
+	
+	La página web utiliza la fuente calibri, arial, sans-serif
+	Border
+	solid | dotted | dashed | groove 
+    Colores (colores similiares no tienes pq ser exactamente iguales)
+	#FF4500 lightblue green #E9967A #9932CC #04B404 #FFB973 #008000 #8B008B
+	Margenes/padding de las cajas son siempre múltiplos de 3.
+*/
+div{
+	padding:6px;
+	margin:6px 0;
+}
+h1{
+	color:#FF4500;
+	background-color:gold;
+}
+.par1{
+	color:green;
+	background-color:lightblue ;
+	padding-bottom:3px;
+	padding-top:3px;
+	margin:3px 0;
+}
+.static{
+	border:solid 1px #E9967A;
+}
+.relative{
+	border:dotted 1px #9932CC;
+	position:relative;
+	left:6%;
+}
+.fixed{
+	position:fixed;
+	background-color:#FFB973;
+	border:dashed 1px #04B404;
+	width:10%;
+	right:0px;
+	bottom:9px;
+	
+}
+.relative1{
+	border:solid 3px green;
+	position:relative;
+	width:23%;
+	padding-bottom:100px;
+	
+}
+.absolute1{
+	border:solid 1px #7FFF00;
+	position:absolute;
+	left:45%;
+	margin-right:6px;
+	bottom:20%;
+}
+
+.sticky{
+	background-color:#04B404;
+	color:white;
+	position:sticky;
+	text-align:center;
+}
+.img1{
+	position:relative;
+	height:200px;
+	top:0px;
+	left:0px;
+	z-index:-1;
+	
+}
+
+.relative1 p{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+
+.container{
+	position:relative;
+	border-color:#9932CC;
+}
+
+.container div{
+	  background-color:#FFB973;
+	  border-color:#9932CC;
+	  border-style:solid;
+	  color:#9932CC;
+}
+
+.topleft{
+	position:absolute;
+	top:50px;
+	left:10px;
+}
+.topright{
+	position:absolute;
+	top:50px;
+	right:10px;
+}
+.center{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+.bottomleft{
+	position:absolute;
+	bottom:50px;
+	left:10px;
+}
+.bottomright{
+	position:absolute;
+	bottom:50px;
+	right:10px;
+}

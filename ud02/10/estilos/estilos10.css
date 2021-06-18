@@ -1,0 +1,40 @@
+/*
+Los colores usados son lightblue, blue y #A64B00
+• Fuentes: Goldman y Goldman-Bold
+• Cuando posiciono el ratón en una celda del body de la tabla, cambio de color #A64B00
+*/
+h1{
+	text-align: center;
+	font-family:'Goldman-Bold';
+}
+img{
+	height:50px;
+	width:50px;
+}
+table{
+	border-collapse:separate;
+	border-spacing:10px 30px;
+	margin:auto;
+	width:75%;
+}
+th,td{
+	border:1px solid black;
+	width:16%;
+	vertical-align:middle;
+}
+tr{
+	height:50px;
+}
+tbody tr:nth-child(2n+1){
+	background-color:cyan;
+	font-family:'Goldman-Bold';
+}
+tbody tr:nth-child(2n){
+	background-color:lightblue;
+	font-family:'Goldman';
+}
+	
+tbody th:hover, tbody td:hover{
+	background-color:#A64B00;
+}
+

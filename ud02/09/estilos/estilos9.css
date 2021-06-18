@@ -1,0 +1,81 @@
+/*Los colores usados son: Crimson, #fff, darkred y lightsalmon.
+• Fuentes: Goldman*/
+
+@font-face {
+	font-family: Goldman, bold;
+	src: url(../fonts/Goldman-Bold.ttf);
+}
+
+
+	
+body{
+	font-family: "Goldman", cursive;
+	background-image:url("../images/Le_petit_prince.png");
+	background-repeat:no-repeat;
+	background-position: right top;
+	margin-right:300 px;
+}
+h1{
+	letter-spacing: 5px;
+	text-transform:capitalize;
+	text-decoration:underline;
+	color:crimson;
+	font-size:3em;
+	font-weight:bold;
+}
+p{
+	background-color: crimson;
+	font-family:'Goldman';
+	font-size: 2em;
+	font-style:italic;
+	padding: 5px 0;
+}
+p span{
+	color:#fff;
+}
+p::first-letter{
+	font-size: 2.5em;
+}
+li{
+	border-style:dotted;
+	border-color:darkred;
+	border-width:thin;
+	
+}
+
+.lista1{
+	list-style-type:circle;
+	list-style-position:inside;
+	list-style-image:none;
+}
+.lista2{
+	list-style-type:square;
+	list-style-position:outside;
+	list-style-image:none;
+}
+.lista3{
+	list-style: square inside url("../images/sqpurple.png");
+}
+ol{
+	background-color:lightsalmon;
+	padding:1px;
+	border-style:dashed;
+	border-color:darkred;
+	
+}
+ol li{
+	background-color:darkred;
+	margin:20px;
+	list-style-type:"# ";
+	list-style-position:outside;
+}
+.lista5{
+	color:darkred;
+	background-color:lightsalmon;
+	list-style-type:decimal;
+	border-style:none;
+}
+.lista6{
+	list-style-type:none;
+	color:darkred
+}
