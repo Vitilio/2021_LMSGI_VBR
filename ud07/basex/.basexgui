@@ -1,0 +1,115 @@
+# Paths
+INPUTPATH = C:/Users/daw1/basex/book.xml
+DATAPATH = C:\Users\daw1\basex\
+WORKPATH = C:/Users/daw1/basex/
+PROJECTPATH = //192.168.2.100/_CompartidaProfesor/LENGUAJE MARCAS/Software/
+
+# Layout
+FONT = SansSerif
+MONOFONT = Consolas
+FONTTYPE = 0
+FONTSIZE = 15
+ONLYMONO = false
+COLORRED = 15
+COLORGREEN = 11
+COLORBLUE = 6
+
+# Windows
+UPDATEVERSION = 9.5.2
+VIEWS = V H editor folder map plot - H text info table tree explore - - 
+GUISIZE0 = 814
+GUISIZE1 = 867
+GUILOC0 = -7
+GUILOC1 = 0
+MAXSTATE = true
+SHOWBUTTONS = true
+SHOWINPUT = true
+SHOWSTATUS = true
+SHOWINFO = true
+SHOWMAP = true
+SHOWTABLE = false
+SHOWTEXT = true
+SHOWFOLDER = false
+SHOWEXPLORE = false
+SHOWPLOT = false
+SHOWEDITOR = true
+SHOWTREE = true
+SHOWPROJECT = true
+PREFTAB = 0
+LOOKANDFEEL = 
+SHOWNAME = true
+SCROLLTABS = true
+MOUSEFOCUS = false
+XMLSUFFIXES = xml,xsd,svg,rdf,rss,rng,sch,xhtml
+ASCSORT = true
+CASESORT = true
+MERGEDUPL = false
+COLUMN = 1
+UNICODE = true
+SHOWMARGIN = true
+MARGIN = 80
+TABSPACES = true
+INDENT = 2
+SHOWINVISIBLE = true
+SHOWNL = false
+SHOWLINES = true
+MARKLINE = true
+SAVERUN = false
+PARSEPROJ = true
+AUTO = true
+FILES = *.xml, *.xq*
+SHOWHIDDEN = false
+SEARCHMODE = 0
+FILTERRT = false
+EXECRT = false
+DBNAME = book
+LASTINSERT = 1
+
+# Visualizations
+MAPATTS = false
+MAPOFFSETS = 3
+MAPALGO = 0
+MAPWEIGHT = 0
+TREESLIM = true
+TREEATTS = false
+PLOTDOTS = 0
+PLOTXLOG = false
+PLOTYLOG = false
+MAXTEXT = 8388608
+MAXRESULTS = 500000
+
+# Search
+SEARCHED = 0
+REPLACED = 0
+
+# History
+COMMANDS = 0
+SEARCH = 0
+XQUERY = 0
+
+# Files
+EDITOR = 10
+EDITOR1 = C:/Users/daw1/basex/estilos.css
+EDITOR2 = C:/Users/daw1/basex/book05.xq
+EDITOR3 = C:/Users/daw1/basex/book.xml
+EDITOR4 = C:/Users/daw1/basex/book04.xq
+EDITOR5 = C:/Users/daw1/basex/book03.xq
+EDITOR6 = C:/Users/daw1/basex/book02.xq
+EDITOR7 = C:/Users/daw1/basex/ejemplo2.xq
+EDITOR8 = C:/Users/daw1/basex/ejemplo5.xq
+EDITOR9 = C:/Users/daw1/basex/ejemplo4.xq
+EDITOR10 = C:/Users/daw1/basex/ejemplo3.xq
+INPUTS = 2
+INPUTS1 = C:/Users/daw1/basex/book.xml
+INPUTS2 = F:/DAW/LENGUAJE_MARCAS/2021_LMSGI_VBR/ud06/08/prediccion.xml
+OPEN = 5
+OPEN1 = C:/Users/daw1/basex/book05.xq
+OPEN2 = C:/Users/daw1/basex/book03.xq
+OPEN3 = C:/Users/daw1/basex/book04.xq
+OPEN4 = C:/Users/daw1/basex/book.xml
+OPEN5 = C:/Users/daw1/basex/estilos.css
+PROJECTS = 0
+PROJFILES = 0
+PROJCONTS = 0
+
+# Local Options
