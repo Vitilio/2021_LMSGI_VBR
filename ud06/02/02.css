@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 abr. 2021, 9:56:30
+    Author     : Víctor Blanco Rodrigo
+*/
+
+
+h1{
+    color:#04B404;
+    background-color:#BBBBBB;
+}
+
+h2{
+    color:#BBBBBB;
+    background-color:#04B404;
+}
+
+div{
+    color:#04B404;
+    border:dotted;
+    border-color: #7FFF00;
+}
+p{
+    background-color:#04B404;
+    text-align: right;
+}
