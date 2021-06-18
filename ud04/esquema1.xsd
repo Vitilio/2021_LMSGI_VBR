@@ -19,12 +19,7 @@
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
     <!-- Declaración de tipos complejos-->
-    <xs:complexType name="tipoFichero">
-        <xs:sequence>
-            <xs:element name="nombre" type="xs:string"/>
-            <xs:element name="tipo" type="xs:string"/>
-        </xs:sequence>
-    </xs:complexType>
+   
     
     <!-- Declaración de elementos-->
     <xs:element name="mail">
